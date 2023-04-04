@@ -3,15 +3,14 @@
     'name': "eaudit",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        eAudit adalah sebuah aplikasi yang digunakan untuk proses Audit""",
 
     'description': """
-        Long description of module's purpose
+        eaudit aplikasi berbasis Odoo ERP yang diimplementasikan di UIN Maulana Malik Ibrahim Malang
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "UIN Maulana Malik Ibrahim Malang",
+    'website': "https://uin-malang.ac.id",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
