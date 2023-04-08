@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- Menu Data -->
-    <menuitem name="Audit" id="spmi_audit" web_icon="espmi.static/description/icon_prodi.png"/>
-    <menuitem name="Data Master" id="spmi_masterprodi" sequence="20" parents="spmi_aprodi"/>
-    <menuitem name="A.Identitas Prodi" id="spmi_dataprodi" sequence="30" parents="spmi_aprodi"/>
+    <menuitem name="Audit" id="eaudit_audit" sequence="20" web_icon="eeaudit.static/description/icon_prodi.png"/>
+    <menuitem name="Data Master" id="eaudit_masterprodi" sequence="20" parents="eaudit_aprodi"/>
+    <menuitem name="A.Identitas Prodi" id="eaudit_dataprodi" sequence="30" parents="eaudit_aprodi"/>
 </odoo>
