@@ -3,7 +3,7 @@
     'name': "eaudit",
 
     'summary': """
-        eAudit adalah sebuah aplikasi yang digunakan untuk proses Audit""",
+        eAudit adalah sebuah aplikasi yang digunakan untuk proses Audit Saya""",
 
     'description': """
         eaudit aplikasi berbasis Odoo ERP yang diimplementasikan di UIN Maulana Malik Ibrahim Malang
