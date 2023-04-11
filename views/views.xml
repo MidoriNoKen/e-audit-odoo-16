@@ -1,8 +1,8 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="eaudit.list">
+
+    <!-- <record model="ir.ui.view" id="eaudit.list">
       <field name="name">eaudit list</field>
       <field name="model">eaudit.eaudit</field>
       <field name="arch" type="xml">
@@ -12,21 +12,21 @@
           <field name="value2"/>
         </tree>
       </field>
-    </record>
--->
+    </record> -->
+
 
     <!-- actions opening views on models -->
-<!--
-    <record model="ir.actions.act_window" id="eaudit.action_window">
+
+    <!-- <record model="ir.actions.act_window" id="eaudit.action_window">
       <field name="name">eaudit window</field>
       <field name="res_model">eaudit.eaudit</field>
       <field name="view_mode">tree,form</field>
-    </record>
--->
+    </record> -->
+
 
     <!-- server action to the one above -->
-<!--
-    <record model="ir.actions.server" id="eaudit.action_server">
+
+    <!-- <record model="ir.actions.server" id="eaudit.action_server">
       <field name="name">eaudit server</field>
       <field name="model_id" ref="model_eaudit_eaudit"/>
       <field name="state">code</field>
@@ -37,24 +37,24 @@
           "res_model": model._name,
         }
       </field>
-    </record>
--->
+    </record> -->
+
 
     <!-- Top menu item -->
-<!--
-    <menuitem name="eaudit" id="eaudit.menu_root"/>
--->
+
+    <!-- <menuitem name="eaudit" id="eaudit.menu_root"/> -->
+
     <!-- menu categories -->
-<!--
-    <menuitem name="Menu 1" id="eaudit.menu_1" parent="eaudit.menu_root"/>
-    <menuitem name="Menu 2" id="eaudit.menu_2" parent="eaudit.menu_root"/>
--->
+
+    <!-- <menuitem name="Menu 1" id="eaudit.menu_1" parent="eaudit.menu_root"/>
+    <menuitem name="Menu 2" id="eaudit.menu_2" parent="eaudit.menu_root"/> -->
+
     <!-- actions -->
-<!--
-    <menuitem name="List" id="eaudit.menu_1_list" parent="eaudit.menu_1"
+
+    <!-- <menuitem name="List" id="eaudit.menu_1_list" parent="eaudit.menu_1"
               action="eaudit.action_window"/>
     <menuitem name="Server to list" id="eaudit" parent="eaudit.menu_2"
-              action="eaudit.action_server"/>
--->
+              action="eaudit.action_server"/> -->
+
   </data>
 </odoo>

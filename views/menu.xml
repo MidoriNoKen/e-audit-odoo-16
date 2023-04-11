@@ -1,8 +1,8 @@
 <odoo>
     <data>
         <!-- Menu Data -->
-        <menuitem id="eaudit_audit" name="Audit" sequence="10" web_icon="eaudit,static/description/icon_audit.png" />
-        <menuitem id="eaudit_master" name="Data Master" sequence="20" parent="eaudit_audit" />
-        <menuitem id="eaudit_data" name="Audit" sequence="30" parent="eaudit_audit" />
+        <menuitem id="eaudit_audit" name="Audit" sequence="10" web_icon="eaudit,static/description/icon.png"/>
+        <menuitem id="eaudit_master" name="Data Master" sequence="20" parent="eaudit_audit"/>
+        <menuitem id="eaudit_data" name="Audit" sequence="30" parent="eaudit_audit"/>
     </data>
 </odoo>
